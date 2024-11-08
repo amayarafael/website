@@ -15,20 +15,6 @@ export default class Home extends Component {
             <h1 class='pt-4 text-lg font-bold'>Our Mission</h1>
             <span>Our mission is to enhance smiles and improve oral health by crafting precision dental restorations that blend seamlessly with natural teeth, ensuring both functionality and aesthetics.</span>
           </div>
-          {/* <div class='h-[100%] w-[100%] bg-slate-300'>
-            <h1 class='pt-4 text-lg font-bold'>About My Dental Technology Expertise</h1>
-            <span>I pride myself on being at the forefront of dental technology, providing top-quality dental prosthetics and appliances to dentists and their patients since [year established].</span>
-            
-            <h1 class='pt-4 text-lg font-bold'>Expert Craftsmanship</h1>
-            <span>Our team of highly skilled dental technicians brings together years of experience and a passion for dental artistry. Each member is certified and continuously trained in the latest dental technology advancements.</span>
-            
-            
-            
-            
-            Environmental Responsibility
-            We are committed to sustainable practices, using eco-friendly materials and processes whenever possible to reduce our environmental impact.
-            At [Dental Lab Name], we're not just crafting dental prosthetics; we're creating confident smiles and contributing to better oral health outcomes. Partner with us to experience the difference that precision, passion, and advanced technology can make in dental care.
-          </div> */}
         </div>
         <div class='w-full flex flex-1 flex-col'>
           <div class="w-full h-64 flex flex-row justify-evenly items-center mt-10 mb-10">
