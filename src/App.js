@@ -1,4 +1,6 @@
 import About from './pages/about/About';
+import Portfolio from './pages/portfolio/Portfolio';
+import Services from './pages/services/Services';
 import Header from './other/components/header/Header';
 import './App.css'
 import { useState } from 'react';
@@ -14,10 +16,10 @@ function App() {
           <About/>
         :
         selectedPage === 'Portfolio' ?
-          'Portfolio'
+          <Portfolio/>
         :
         selectedPage === 'Services' ?
-          'Services'
+          <Services/>
         :
           'None'
       }

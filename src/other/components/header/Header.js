@@ -20,7 +20,7 @@ export default function Header({ setSelectedPage }) {
                         );
                     })
                 }
-                <a class="flex flex-row h-10 shadow-md justify-evenly items-center border-gray-300 border-[1px] rounded-lg hover:cursor-pointer" href='tel:7868628440'>
+                <a class="flex flex-row h-10 ml-4 shadow-md justify-evenly items-center border-gray-300 border-[1px] rounded-lg hover:cursor-pointer" href='tel:7868628440'>
                     <FaPhoneAlt class="ml-2 mr-2" size={15}/>
                     <span class="ml-2 mr-2 text-sm text-nowrap">(786) 862-8440</span>
                 </a>
