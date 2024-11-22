@@ -12,9 +12,9 @@ export default function MobileMenu({ setSelectedPage }) {
         <div className='sm:hidden flex flex-1 flex-row justify-end items-center'>
             {/* Menu Button */}
             <div className='flex flex-grow items-center justify-start'>
-                <TbDental className='w-[10%] h-auto ml-2' />
+                <TbDental className='w-[10%] max-w-10 h-auto ml-2' />
             </div>
-            <MenuIcon className='w-[7%] h-auto mr-2 hover:cursor-pointer' onClick={() => {
+            <MenuIcon className='w-[7%] max-w-10 h-auto mr-2 hover:cursor-pointer' onClick={() => {
                 setShowMenu(!showMenu);
             }} />
 
