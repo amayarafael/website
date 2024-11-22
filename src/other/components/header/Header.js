@@ -1,15 +1,16 @@
 import React, { Component, useState } from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
+import MobileMenu from './MobileMenu';
 
 export default function Header({ setSelectedPage }) {
     const [page, setPage] = useState('About');
 
     return (
         <div class="w-full h-[12vh] border-b-[1px] border-slate-400 flex flex-row justify-between shadow-md">
-            <div class="flex flex-1 items-center justify-start">
+            <div class="hidden sm:flex flex-1 items-center justify-start">
                 <h1 class="pl-10 text-lg font-bold">Rafael Amaya - Dental Tech</h1>
             </div>
-            <div class="flex flex-1 items-center justify-end">
+            <div class="hidden sm:flex flex-1 items-center justify-end">
                 {
                     ['About', 'Portfolio', 'Services'].map(section => {
                         return (
@@ -28,8 +29,9 @@ export default function Header({ setSelectedPage }) {
                 <button onClick={() => {
                     setPage('Send-Form');
                     setSelectedPage('Send-Form');
-                }} class="transition-all h-10 pl-5 pr-5 mr-10 text-nowrap rounded-xl text-center justify-center bg-tertiary hover:bg-tertiary-hover">Send a Case</button>
+                }} class="transition-all h-10 pl-5 pr-5 mr-10 text-nowrap rounded-xl text-center justify-center text-white bg-green-600 hover:bg-green-700">Send a Case</button>
             </div>
+            <MobileMenu setSelectedPage={setSelectedPage}/>
         </div>
     )
 }
