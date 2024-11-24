@@ -11,7 +11,7 @@ export default function MobileMenu({ setSelectedPage }) {
     return (
         <div className='sm:hidden flex flex-1 flex-row justify-end items-center'>
             {/* Menu Button */}
-            <div className='flex flex-grow items-center justify-start'>
+            <div className='flex flex-grow items-center justify-center'>
                 <TbDental className='w-[10%] max-w-10 h-auto ml-2' />
             </div>
             <MenuIcon className='w-[7%] max-w-10 h-auto mr-2 hover:cursor-pointer' onClick={() => {
@@ -32,15 +32,19 @@ export default function MobileMenu({ setSelectedPage }) {
                     {
                         ['About', 'Portfolio', 'Services'].map(page => {
                             return (
-                                <a className='text-2xl hover:cursor-pointer' onClick={() => { 
-                                        setSelectedPage(page);
-                                        setShowMenu(!showMenu)
-                                    }}>
+                                <a className='text-2xl hover:cursor-pointer' onClick={() => {
+                                    setSelectedPage(page);
+                                    setShowMenu(!showMenu)
+                                }}>
                                     {page}
                                 </a>
                             )
                         })
                     }
+                    <button onClick={() => {
+                        setSelectedPage('Send-Form');
+                        setShowMenu(!showMenu)
+                    }} class="transition-all h-10 pl-5 pr-5 text-nowrap rounded-xl text-center justify-center text-white bg-green-600 hover:bg-green-700">Send a Case</button>
                     <div className='w-full flex flex-row gap-4 items-center justify-center'>
                         <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
                         <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
