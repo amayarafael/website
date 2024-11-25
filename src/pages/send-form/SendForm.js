@@ -48,7 +48,14 @@ export default function SendForm() {
                     </div>
                 </div>
             </div>
-            <MobileSendForm />
+            <MobileSendForm
+                handleSubmit={handleSubmit}
+                firstName={firstName} setFirstName={setFirstName}
+                lastName={lastName} setlastName={setlastName}
+                phone={phone} setPhone={setPhone}
+                email={email} setEmail={setEmail}
+                service={service} setService={setService}
+            />
         </>
     )
 }
