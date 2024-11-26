@@ -3,6 +3,7 @@ import denturesImg from '../../img/FullTeethSet.jpg'
 import { FaCircleNodes } from "react-icons/fa6";
 import { FaCheck, FaFingerprint, FaTrophy } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import MobileFooter from '../../other/components/footer/MobileFooter';
 
 export default function MobileAbout() {
     return (
@@ -42,6 +43,7 @@ export default function MobileAbout() {
                     <span className='text-sm'>Our dedication to excellence has earned us a reputation as a trusted partner among dental professionals. We continuously strive to improve our techniques and embrace innovations that benefit both dentists and patients.</span>
                 </div>
             </div>
+            <MobileFooter/>
         </div>
     )
 }
