@@ -25,9 +25,9 @@ export default function MobileMenu({ setSelectedPage }) {
                         setShowMenu(!showMenu);
                     }} />
                 </div>
-                <div className='w-full flex flex-grow flex-col justify-center items-center gap-10'>
+                <div className='w-full flex flex-grow flex-col justify-center items-center gap-14'>
                     <div className='w-full flex flex-row items-center justify-center'>
-                        <TbDental className='w-[10%] h-auto' />
+                        <TbDental className='w-[15%] h-auto' />
                     </div>
                     {
                         ['About', 'Portfolio', 'Services'].map(page => {

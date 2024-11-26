@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import denturesImg from '../../img/FullTeethSet.jpg'
 import Card from '../../other/components/card/Card';
-import { FaTooth } from "react-icons/fa";
+import { FaTooth, FaCircleNodes } from "react-icons/fa";
 import Footer from '../../other/components/footer/Footer';
 import MobileAbout from './MobileAbout';
 
