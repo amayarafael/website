@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 export default function Footer() {
     return (
-        <div class="w-full min-h-52 border-t-[1px] flex flex-1 flex-row justify-between bg-primary">
+        <div class="w-full min-h-52 border-t-[1px] flex flex-1 flex-row justify-between bg-primary flex-grow-0">
             <div class="flex-1 h-full content-center">
                 <div class="flex w-full h-full content-center">
                     <ul class="flex flex-1 flex-col justify-center items-center space-y-2">

@@ -11,12 +11,17 @@ export default function MobileMenu({ setSelectedPage }) {
     return (
         <div className='sm:hidden flex flex-1 flex-row justify-end items-center'>
             {/* Menu Button */}
-            <div className='flex flex-grow items-center justify-start'>
-                <TbDental className='w-[15%] h-auto ml-2' />
+            <div className='flex-1'>
+
             </div>
-            <MenuIcon className='w-[30px] h-auto mr-2 hover:cursor-pointer' onClick={() => {
-                setShowMenu(!showMenu);
-            }} />
+            <div className='flex flex-[2] flex-grow items-center justify-center'>
+                <TbDental className='h-auto ml-2' size={35}/>
+            </div>
+            <div className='flex flex-row flex-1 items-center justify-end'>
+                <MenuIcon className='w-[30px] h-auto mr-2 hover:cursor-pointer' onClick={() => {
+                    setShowMenu(!showMenu);
+                }} />
+            </div>
 
             {/* Slide-out Menu */}
             <div className={`fixed top-0 right-0 flex flex-col items-center justify-center transition-all duration-500 h-[100lvh] overflow-hidden bg-white w-full ${showMenu ? 'left-0' : '-left-full'}`}>
