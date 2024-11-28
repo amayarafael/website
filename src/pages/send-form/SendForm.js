@@ -10,11 +10,14 @@ export default function SendForm() {
     const [email, setEmail] = useState("");
     const [service, setService] = useState("");
 
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
     const handleSubmit = () => {
         emailjs.send(Config.emailJS.SERVICE_ID, Config.emailJS.TEMPLATE_ID, {
             firstName, lastName, phone, email, service
         }, { publicKey: Config.emailJS.PUBLIC_KEY }).then(() => {
             console.log('Request Submitted');
+            setFormSubmitted(true);
         }, (error) => {
             console.log('Request Submission Failed', error);
         })
@@ -55,6 +58,7 @@ export default function SendForm() {
                 phone={phone} setPhone={setPhone}
                 email={email} setEmail={setEmail}
                 service={service} setService={setService}
+                formSubmitted={formSubmitted}
             />
         </>
     )
