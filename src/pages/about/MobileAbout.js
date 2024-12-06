@@ -5,7 +5,7 @@ import { FaCheck, FaFingerprint, FaTrophy } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import MobileFooter from '../../other/components/footer/MobileFooter';
 
-export default function MobileAbout() {
+export default function MobileAbout({ setSelectedPage }) {
     return (
         <div className='flex sm:hidden flex-col h-[88vh] overflow-y-scroll scrollbar-none'>
             <div className='w-full flex flex-col flex-grow-0'>
@@ -26,6 +26,9 @@ export default function MobileAbout() {
                         <li class='flex flex-row items-center justify-start mb-2'><GoDotFill className='w-6 h-auto pr-2' />Orthodontic appliances</li>
                         <li class='flex flex-row items-center justify-start mb-2'><GoDotFill className='w-6 h-auto pr-2' />Occlusal guards and sleep apnea devices</li>
                     </ul>
+                    <button onClick={() => {
+                        setSelectedPage('Send-Form');
+                    }} class="transition-all h-10 mt-2 pl-5 pr-5 text-nowrap rounded-xl text-center justify-center text-white bg-green-600 hover:bg-green-700">Send a Case</button>
                 </div>
                 <div className='flex flex-col min-h-[300px] w-full items-center justify-center flex-grow'>
                     <FaCheck className='w-[50px] h-auto' />

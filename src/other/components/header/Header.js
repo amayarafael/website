@@ -12,7 +12,7 @@ export default function Header({ setSelectedPage }) {
             </div>
             <div class="hidden sm:flex flex-1 items-center justify-end">
                 {
-                    ['About', 'Portfolio', 'Services'].map(section => {
+                    ['About', 'Portfolio'].map(section => {
                         return (
                             <a onClick={() => {
                                 setPage(section);

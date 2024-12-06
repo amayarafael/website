@@ -5,8 +5,7 @@ import { FaTooth, FaCircleNodes } from "react-icons/fa";
 import Footer from '../../other/components/footer/Footer';
 import MobileAbout from './MobileAbout';
 
-export default class Home extends Component {
-  render() {
+export default function Home({ setSelectedPage }) {
     return (
       <>
         <div class="hidden sm:flex w-full h-[88vh] flex-col items-start justify-between overflow-y-scroll scrollbar-none">
@@ -53,8 +52,7 @@ export default class Home extends Component {
           </div>
           <Footer />
         </div>
-        <MobileAbout />
+        <MobileAbout setSelectedPage={setSelectedPage}/>
       </>
     )
   }
-}

@@ -35,7 +35,7 @@ export default function MobileMenu({ setSelectedPage }) {
                         <TbDental className='w-[15%] h-auto' />
                     </div>
                     {
-                        ['About', 'Portfolio', 'Services'].map(page => {
+                        ['About', 'Portfolio'].map(page => {
                             return (
                                 <a className='text-2xl hover:cursor-pointer' onClick={() => {
                                     setSelectedPage(page);
@@ -51,9 +51,9 @@ export default function MobileMenu({ setSelectedPage }) {
                         setShowMenu(!showMenu)
                     }} class="transition-all h-10 pl-5 pr-5 text-nowrap rounded-xl text-center justify-center text-white bg-green-600 hover:bg-green-700">Send a Case</button>
                     <div className='w-full flex flex-row gap-4 items-center justify-center'>
+                        {/* <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
                         <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
-                        <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
-                        <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' />
+                        <AiOutlineYoutube className='w-[10%] h-auto hover:cursor-pointer' /> */}
                     </div>
                 </div>
             </div>

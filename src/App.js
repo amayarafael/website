@@ -14,7 +14,7 @@ function App() {
       <Header setSelectedPage={setSelectedPage} />
       {
         selectedPage === 'About' ?
-          <About />
+          <About setSelectedPage={setSelectedPage} />
           :
           selectedPage === 'Portfolio' ?
             <Portfolio />
