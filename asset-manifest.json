@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.698abc2c.css",
-    "main.js": "/website/static/js/main.202af2a9.js",
+    "main.css": "/website/static/css/main.8bf7f513.css",
+    "main.js": "/website/static/js/main.994867e6.js",
     "static/media/FullTeethSet.jpg": "/website/static/media/FullTeethSet.a30eec82630f11c77b3c.jpg",
     "static/media/league-spartan.bold.ttf": "/website/static/media/league-spartan.bold.4078dc7ed7d926d9f0bd.ttf",
     "index.html": "/website/index.html",
-    "main.698abc2c.css.map": "/website/static/css/main.698abc2c.css.map",
-    "main.202af2a9.js.map": "/website/static/js/main.202af2a9.js.map"
+    "main.8bf7f513.css.map": "/website/static/css/main.8bf7f513.css.map",
+    "main.994867e6.js.map": "/website/static/js/main.994867e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.698abc2c.css",
-    "static/js/main.202af2a9.js"
+    "static/css/main.8bf7f513.css",
+    "static/js/main.994867e6.js"
   ]
 }
