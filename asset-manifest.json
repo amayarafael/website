@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.8bf7f513.css",
-    "main.js": "/website/static/js/main.994867e6.js",
+    "main.css": "/website/static/css/main.38f09503.css",
+    "main.js": "/website/static/js/main.a43cb0d0.js",
+    "static/media/portfolio-6.jpg": "/website/static/media/portfolio-6.0135a075d28ac5293fed.jpg",
+    "static/media/portfolio-5.jpg": "/website/static/media/portfolio-5.d65525b914fe216ac6fb.jpg",
+    "static/media/portfolio-2.jpg": "/website/static/media/portfolio-2.818452a96b775f2e1255.jpg",
+    "static/media/portfolio-4.jpg": "/website/static/media/portfolio-4.333d2f4992db54ab3d39.jpg",
+    "static/media/portfolio-1.jpg": "/website/static/media/portfolio-1.1e2776bb596e1dd8578a.jpg",
+    "static/media/portfolio-3.jpg": "/website/static/media/portfolio-3.387bd8ab2bc8ff4f4f63.jpg",
     "static/media/FullTeethSet.jpg": "/website/static/media/FullTeethSet.a30eec82630f11c77b3c.jpg",
     "static/media/league-spartan.bold.ttf": "/website/static/media/league-spartan.bold.4078dc7ed7d926d9f0bd.ttf",
     "index.html": "/website/index.html",
-    "main.8bf7f513.css.map": "/website/static/css/main.8bf7f513.css.map",
-    "main.994867e6.js.map": "/website/static/js/main.994867e6.js.map"
+    "main.38f09503.css.map": "/website/static/css/main.38f09503.css.map",
+    "main.a43cb0d0.js.map": "/website/static/js/main.a43cb0d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf7f513.css",
-    "static/js/main.994867e6.js"
+    "static/css/main.38f09503.css",
+    "static/js/main.a43cb0d0.js"
   ]
 }
