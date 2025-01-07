@@ -16,7 +16,7 @@ export default function MobileAbout({ setSelectedPage }) {
                 <span class='px-6 overflow-hidden'>Our mission is to enhance smiles and improve oral health by crafting precision dental restorations that blend seamlessly with natural teeth, ensuring both functionality and aesthetics.</span>
             </div>
             <div className='flex flex-grow w-full flex-col '>
-                <div className='flex flex-col min-h-[300px] w-full items-center justify-center flex-grow'>
+                {/* <div className='flex flex-col min-h-[300px] w-full items-center justify-center flex-grow'>
                     <FaCircleNodes className='w-[50px] h-auto' />
                     <h1 className='text-lg py-2 font-bold'>Comprehensive Services</h1>
                     <ul class={`text-start text-sm pl-[25px]`}>
@@ -29,7 +29,7 @@ export default function MobileAbout({ setSelectedPage }) {
                     <button onClick={() => {
                         setSelectedPage('Send-Form');
                     }} class="transition-all h-10 mt-2 pl-5 pr-5 text-nowrap rounded-xl text-center justify-center text-white bg-green-600 hover:bg-green-700">Send a Case</button>
-                </div>
+                </div> */}
                 <div className='flex flex-col min-h-[300px] w-full items-center justify-center flex-grow'>
                     <FaCheck className='w-[50px] h-auto' />
                     <h1 className='text-lg py-2 font-bold'>Quality Assurance</h1>
