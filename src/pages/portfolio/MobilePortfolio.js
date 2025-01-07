@@ -97,7 +97,7 @@ export default function MobilePortfolio() {
                                 {
                                     [P1, P2, P3, P4, P5, P6].map(sourceImg=> {
                                         return (
-                                            <img src={sourceImg} className='object-cover w-[80lvw] m-6' />
+                                            <img src={sourceImg} className='object-cover rounded-xl w-[80lvw] m-6' />
                                         );
                                     })
                                 }
