@@ -42,8 +42,20 @@ export default function MobileSendForm({
                                 <div class="flex flex-[2] flex-row w-full items-center justify-evenly">
                                     <select class={`select bg-white rounded-md h-10 w-[75%] indent-2 text-base focus:outline-none focus:border-0 ${!service ? 'text-gray-400' : 'text-black'}`} onChange={(e) => { setService(e.target.value) }}>
                                         <option class="bg-white" disabled selected>Service</option>
-                                        <option class="bg-white hover:bg-primary text-black" >Service 1</option>
-                                        <option class="bg-white hover:bg-primary text-black" >Service 2</option>
+                                        {
+                                            [
+                                                'Cracked Dentures or Missing Teeth',
+                                                'New Teeth Insertion',
+                                                'Partial Denture Repair',
+                                                'Flipper or Temporary Teeth Repairs',
+                                                'Mouth Guard',
+                                                'Denture Cleaning'
+                                            ].map(service => {
+                                                return (
+                                                    <option class="bg-white hover:bg-primary text-black" >{service}</option>
+                                                );
+                                            })
+                                        }
                                     </select>
                                 </div>
                                 <div class="flex flex-[2] flex-row w-full items-center justify-evenly">

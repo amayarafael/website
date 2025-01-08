@@ -90,7 +90,7 @@ export default function Portfolio() {
                                     <>
                                         <YouTube
                                             videoId={selectedVideo.id}
-                                            iframeClassName='sm:w-[600px] sm:h-[300px] rounded-xl'
+                                            iframeClassName='sm:w-[600px] sm:h-[300px] xl:w-[1200px] xl:h-[600px] rounded-xl'
                                             onError={() => { }}
                                         />
 

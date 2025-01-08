@@ -48,8 +48,20 @@ export default function SendForm() {
                                     <div class="flex flex-1 flex-row w-full items-center justify-evenly space-x-4">
                                         <select class={`select bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0 ${!service ? 'text-gray-400' : 'text-black'}`} onChange={(e) => { setService(e.target.value) }}>
                                             <option class="bg-white" disabled selected>Service</option>
-                                            <option class="bg-white hover:bg-primary text-black" >Service 1</option>
-                                            <option class="bg-white hover:bg-primary text-black" >Service 2</option>
+                                            {
+                                                [
+                                                    'Cracked Dentures or Missing Teeth',
+                                                    'New Teeth Insertion',
+                                                    'Partial Denture Repair',
+                                                    'Flipper or Temporary Teeth Repairs',
+                                                    'Mouth Guard',
+                                                    'Denture Cleaning'
+                                                ].map(service => {
+                                                    return (
+                                                        <option class="bg-white hover:bg-primary text-black" >{service}</option>
+                                                    );
+                                                })
+                                            }
                                         </select>
                                     </div>
                                     <div class="flex flex-1 flex-row w-full items-center justify-center space-x-2">
