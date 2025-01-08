@@ -111,7 +111,12 @@ export default function Portfolio() {
                                                     );
                                                 })
                                             }
-                                        </> : <></>
+                                        </> : (selectedPage === 'Testimonials') ?
+                                            <>
+                                                <div className='flex h-[300px] flex-col flex-grow items-center justify-center'>
+                                                    <span>Coming Soon!</span>
+                                                </div>
+                                            </> : <></>
                             }
                         </div>
                     </div>
