@@ -38,15 +38,15 @@ export default function SendForm() {
                                 </div>
                                 <div class="flex flex-1 flex-col h-[75%] rounded-3xl mx-4 bg-primary">
                                     <div class="flex flex-1 flex-row w-full items-center justify-evenly space-x-4">
-                                        <input type="text" class="input bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0" placeholder='First name' onChange={(e) => { setFirstName(e.target.value) }} />
-                                        <input type="text" class="input bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0" placeholder='Last name' onChange={(e) => { setlastName(e.target.value) }} />
+                                        <input type="text" class="input bg-white rounded-md h-10 w-40 xl:w-80 indent-4 focus:outline-none focus:border-0" placeholder='First name' onChange={(e) => { setFirstName(e.target.value) }} />
+                                        <input type="text" class="input bg-white rounded-md h-10 w-40 xl:w-80 indent-4 focus:outline-none focus:border-0" placeholder='Last name' onChange={(e) => { setlastName(e.target.value) }} />
                                     </div>
                                     <div class="flex flex-1 flex-row w-full items-center justify-evenly space-x-4">
-                                        <input type="tel" class="input bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0" placeholder='Phone number' onChange={(e) => { setPhone(e.target.value) }} />
-                                        <input type="email" class="input bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} />
+                                        <input type="tel" class="input bg-white rounded-md h-10 w-40 xl:w-80 indent-4 focus:outline-none focus:border-0" placeholder='Phone number' onChange={(e) => { setPhone(e.target.value) }} />
+                                        <input type="email" class="input bg-white rounded-md h-10 w-40 xl:w-80 indent-4 focus:outline-none focus:border-0" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} />
                                     </div>
                                     <div class="flex flex-1 flex-row w-full items-center justify-evenly space-x-4">
-                                        <select class={`select bg-white rounded-md h-10 w-40 xl:w-60 indent-4 focus:outline-none focus:border-0 ${!service ? 'text-gray-400' : 'text-black'}`} onChange={(e) => { setService(e.target.value) }}>
+                                        <select class={`select bg-white rounded-md h-10 w-40 xl:w-80 indent-4 focus:outline-none focus:border-0 ${!service ? 'text-gray-400' : 'text-black'}`} onChange={(e) => { setService(e.target.value) }}>
                                             <option class="bg-white" disabled selected>Service</option>
                                             {
                                                 [
