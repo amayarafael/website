@@ -11,8 +11,9 @@ export default function MobileAbout({ setSelectedPage }) {
             <div className='w-full flex flex-col flex-grow-0'>
                 <img src={denturesImg} class='object-cover h-auto w-full' />
             </div>
-            <div class="flex w-full flex-grow min-h-[50%] flex-col justify-center items-center ">
-                <h1 class='text-lg font-bold'>Our Mission</h1>
+            <div className='w-full min-h-12 bg-white' />
+            <div class="flex w-full flex-grow min-h-[50%] flex-col justify-center items-center bg-primary">
+                <h1 class='text-lg font-bold py-2'>OUR MISSION</h1>
                 <span class='px-6 overflow-hidden'>Our mission is to enhance smiles and improve oral health by crafting precision dental restorations that blend seamlessly with natural teeth, ensuring both functionality and aesthetics.</span>
             </div>
             <div className='flex flex-grow w-full flex-col '>

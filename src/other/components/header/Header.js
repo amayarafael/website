@@ -6,7 +6,7 @@ export default function Header({ setSelectedPage }) {
     const [page, setPage] = useState('About');
 
     return (
-        <div class="w-full h-[12vh] border-b-[1px] border-slate-400 bg-white flex flex-row justify-between shadow-md">
+        <div class="w-full min-h-[12vh] border-b-[1px] border-slate-400 bg-white flex flex-row justify-between shadow-md">
             <div class="hidden sm:flex flex-1 items-center justify-start">
                 <h1 class="pl-10 text-lg font-bold">Rafael Amaya - Dental Tech</h1>
             </div>

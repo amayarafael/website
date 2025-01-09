@@ -67,7 +67,7 @@ export default function SendForm() {
                                         </select>
                                     </div>
                                     <div class="flex flex-1 flex-row w-full items-center justify-center space-x-2">
-                                        <button class="w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14" onClick={handleSubmit}>Submit</button>
+                                        <button class={`w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14 ${!(firstName && lastName && phone && email && service) ? 'hover:cursor-not-allowed opacity-50' : ''}`} disabled={!(firstName && lastName && phone && email && service)} onClick={handleSubmit}>Submit</button>
                                     </div>
                                 </div>
                             </div>

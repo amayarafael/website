@@ -59,7 +59,7 @@ export default function MobileSendForm({
                                     </select>
                                 </div>
                                 <div class="flex flex-[2] flex-row w-full items-center justify-evenly">
-                                    <button class="w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14" onClick={handleSubmit}>Submit</button>
+                                    <button class={`w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14 ${!(firstName && lastName && phone && email && service) ? 'opacity-50' : ''}`} onClick={handleSubmit}>Submit</button>
                                 </div>
                             </div>
                         </div>
