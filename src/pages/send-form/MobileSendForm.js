@@ -10,6 +10,8 @@ export default function MobileSendForm({
     service, setService,
     formSubmitted
 }) {
+    const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const PHONE_REGEX = /^(\+\d{1,3}[-.\s]?)?(\(?\d{3}\)?[-.\s]?)?\d{3}[-.\s]?\d{4}$/;
 
     return (
         <div className='flex sm:hidden flex-col min-h-[88vh] w-full overflow-y-scroll scrollbar-none'>
@@ -59,7 +61,7 @@ export default function MobileSendForm({
                                     </select>
                                 </div>
                                 <div class="flex flex-[2] flex-row w-full items-center justify-evenly">
-                                    <button class={`w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14 ${!(firstName && lastName && phone && email && service) ? 'opacity-50' : ''}`} onClick={handleSubmit}>Submit</button>
+                                    <button class={`w-32 xl:w-60 rounded-lg bg-green-600 text-white px-4 h-10 xl:h-14 ${!(firstName && lastName && phone && email && service && EMAIL_REGEX.test(email) && PHONE_REGEX.test(phone)) ? 'opacity-50' : ''}`} disabled={!(firstName && lastName && phone && email && service && EMAIL_REGEX.test(email) && PHONE_REGEX.test(phone))} onClick={handleSubmit}>Submit</button>
                                 </div>
                             </div>
                         </div>
