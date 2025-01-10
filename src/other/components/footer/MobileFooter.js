@@ -10,7 +10,7 @@ export default function MobileFooter() {
                 <div class="flex w-full h-full content-center">
                     <ul class="flex flex-1 flex-col justify-center items-start space-y-2 ml-4 text-sm">
                         <li class="flex flex-row items-center justify-start font-bold">Rafael Amaya, Dental Technician</li>
-                        <li class="flex flex-row items-center justify-start"><MdOutlineEmail class="mr-2" size={15}/><a href='mailto:Denturesrepairs1@gmail.com'>Denturesrepairs1@gmail.com</a></li>
+                        <li class="flex flex-row items-center justify-start"><MdOutlineEmail class="mr-2" size={15}/><a href='mailto:amayaraffael@gmail.com'>amayaraffael@gmail.com</a></li>
                         <li class="flex flex-row items-center justify-start"><FaPhoneAlt class="mr-2" size={15}/><a href='tel:7868628440'>(786) 862-8440</a></li>
                         <li class="flex flex-row items-center justify-start"><CiLocationOn class="mr-2" size={15}/>Pembroke Pines, Fl</li>
                     </ul>
