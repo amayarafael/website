@@ -70,7 +70,7 @@ export default function Portfolio() {
                         <div className='w-full flex justify-center items-center'>
                             <div className='flex w-[700px] flex-row min-h-12 mb-6 mt-6 border-b-[1px] border-primary border-solid'>
                                 {
-                                    ['Videos', 'Images', 'Testimonials'].map((category, index) => {
+                                    ['Videos', 'Images'].map((category, index) => {
                                         return (
                                             <div className={
                                                 `flex-1 content-center hover:cursor-pointer ${(category === selectedPage) ? 'bg-primary' : ''} ${(index == 1) ? 'border-x-[1px] border-primary border-solid' : ''}

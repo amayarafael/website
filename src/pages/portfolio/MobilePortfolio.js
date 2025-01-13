@@ -66,7 +66,7 @@ export default function MobilePortfolio() {
             <div className='flex min-h-full flex-col w-full items-center justify-start overflow-scroll'>
                 <div className='flex w-full flex-row min-h-12 mt-6 border-b-[1px] border-primary border-solid'>
                     {
-                        ['Videos', 'Images', 'Testimonials'].map((category, index) => {
+                        ['Videos', 'Images'].map((category, index) => {
                             return (
                                 <div className={
                                     `flex-1 content-center ${(category === selectedPage) ? 'bg-primary' : ''} ${(index == 1) ? 'border-x-[1px] border-primary border-solid' : ''}
