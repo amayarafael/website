@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8419f9a.css",
-    "main.js": "/static/js/main.077566f0.js",
+    "main.js": "/static/js/main.b80a83a6.js",
     "static/media/portfolio-6.jpg": "/static/media/portfolio-6.0135a075d28ac5293fed.jpg",
     "static/media/portfolio-5.jpg": "/static/media/portfolio-5.d65525b914fe216ac6fb.jpg",
     "static/media/portfolio-2.jpg": "/static/media/portfolio-2.818452a96b775f2e1255.jpg",
@@ -12,10 +12,10 @@
     "static/media/league-spartan.bold.ttf": "/static/media/league-spartan.bold.4078dc7ed7d926d9f0bd.ttf",
     "index.html": "/index.html",
     "main.e8419f9a.css.map": "/static/css/main.e8419f9a.css.map",
-    "main.077566f0.js.map": "/static/js/main.077566f0.js.map"
+    "main.b80a83a6.js.map": "/static/js/main.b80a83a6.js.map"
   },
   "entrypoints": [
     "static/css/main.e8419f9a.css",
-    "static/js/main.077566f0.js"
+    "static/js/main.b80a83a6.js"
   ]
 }
