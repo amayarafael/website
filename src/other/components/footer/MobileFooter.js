@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaExternalLinkAlt } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
 export default function MobileFooter() {
@@ -13,6 +13,7 @@ export default function MobileFooter() {
                         <li class="flex flex-row items-center justify-start"><MdOutlineEmail class="mr-2" size={15}/><a href='mailto:amayaraffael@gmail.com'>amayaraffael@gmail.com</a></li>
                         <li class="flex flex-row items-center justify-start"><FaPhoneAlt class="mr-2" size={15}/><a href='tel:7868628440'>(786) 862-8440</a></li>
                         <li class="flex flex-row items-center justify-start"><CiLocationOn class="mr-2" size={15}/>Pembroke Pines, Fl</li>
+                        <li class="flex flex-row items-center justify-start"><FaExternalLinkAlt class="mr-2" size={15}/><a href='https://www.termsfeed.com/live/7280f6c6-745d-40fd-8345-a80e79f9fccc'>Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
